@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--HEADER-->
+        <header class="header">
+            <div class="logo">
+                <a href="">
+                    <h1>Welcome</h1>
+                </a>
+            </div>
+            <div class="searchbar">
+                <form action="">
+                    <input type="search" placeholder="search here...">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </header>
+        <nav class="menue">
+            <ul class="mobile-menue">
+                <li><a href="#">Menue</a></li>
+                <li><a href="#" class="toggler">+</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">services</a>
+                    <ul class="drop">
+                        <li><a href="services.html">ONE</a></li>
+                        <li><a href="#">TWO</a></li>
+                        <li><a href="#">THREE</a></li>
+                        <li><a href="#">FOUR</a></li>
+                    </ul>
+                </li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <ul id="adaptive">
+                <li><img src="https://preview.redd.it/what-are-some-of-the-reasons-to-avoid-the-ktm-390-adventure-v0-m8l2az1w3e3b1.jpg?width=640&crop=smart&auto=webp&s=1e5c53447f94cf5c504d95f2ce43eb927c55bd87" alt="" width="1000px" height="350px"></li>
+                <li><img src="https://ezfo86czbpk.exactdn.com/wp-content/uploads/2023/04/KTM-390-ADVENTURE_1.jpg" alt="" width="1000px" height="350px"></li>
+                <li><img src="https://dirtbikemagazine.com/wp-content/uploads/2020/05/KTM_390_wheelie_e.jpg" alt="" width="1000px" height="350px"></li>
+            </ul>
+        </section>
+        <section class="conttent-holder">
+            <main class="content">
+                <h1>heading for site</h1>
+                <h2>sub heading</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim ullam ipsa nostrum cumque facilis perspiciatis perferendis mollitia, qui fugiat tempore saepe possimus culpa nemo! Placeat odit rerum esse optio necessitatibus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus veniam nulla provident ab, ullam veritatis fuga minus nesciunt, iste nihil dolorem odio quos. Nobis quas quasi doloremque reiciendis earum?</p>
+            </main>
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">linkdin</a></li>
+                        <li><a href="">instagarm</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <section class="footer-widget">
+            
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>address</h3>
+                <address>
+                Lorem ipsum dolor sit amet consectetur.
+                </address>
+            </div>
+        </section>
+        <footer class="Copyright">
+            <p><small>Copyright &copy; 2023 <br>All Rights Reserved.</small></p>
+        </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" ></script>
+<script>
+    $(document).ready(function() {
+        $('#adaptive').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+        });
+
+        /*$('.menue > ul:nth-of-type(2)').hide();*/
+        $('.toggler').click(function(){
+            $('.menue > ul:nth-of-type(2)').toggle();
+            
+        });
+    });
+</script>
+</body>
+</html>

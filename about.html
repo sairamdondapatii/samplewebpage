@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--HEADER-->
+        <header class="header">
+            <div class="logo">
+                <a href="">
+                    <h1>Welcome</h1>
+                </a>
+            </div>
+            <div class="searchbar">
+                <form action="">
+                    <input type="search" placeholder="search here...">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </header>
+        <nav class="menue">
+            <ul class="mobile-menue">
+                <li><a href="#">Menue</a></li>
+                <li><a href="#" class="toggler">+</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">services</a>
+                    <ul class="drop">
+                        <li><a href="services.html">ONE</a></li>
+                        <li><a href="#">TWO</a></li>
+                        <li><a href="#">THREE</a></li>
+                        <li><a href="#">FOUR</a></li>
+                    </ul>
+                </li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="about-holder">
+            <article class="about">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quasi.</p>
+                <p>Rerum velit quo pariatur maiores natus quibusdam sed repellendus iusto.</p>
+                <p>Dicta exercitationem animi ea. Sunt assumenda quibusdam expedita quaerat dolor?</p>
+                <p>Eum, maxime excepturi. Obcaecati placeat sint sed, laudantium voluptates assumenda!</p>
+                <p>Libero aliquid odit et porro unde est, nam ullam incidunt?</p>
+                <p>Delectus unde atque voluptate necessitatibus dolorum itaque voluptatibus inventore explicabo?</p>
+                <p>Minus voluptate molestiae voluptates iste, commodi est aliquid magnam qui!</p>
+                <p>Voluptas iusto incidunt qui esse aperiam laborum optio aspernatur odio?</p>
+            </article>
+        </section>
+        <section class="footer-widget">
+            
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>sitemap</h3>
+                <ul>
+                   <li><a href="#">Home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+                
+            </div>
+            <div class="footer">
+                <a href=""><img src="" alt=""></a>
+                <h3>address</h3>
+                <address>
+                Lorem ipsum dolor sit amet consectetur.
+                </address>
+            </div>
+        </section>
+        <footer class="Copyright">
+            <p><small>Copyright &copy; 2023 <br>All Rights Reserved.</small></p>
+        </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" ></script>
+<script>
+    /*$('.menue > ul:nth-of-type(2)').hide();*/
+    $('.toggler').click(function(){
+        $('.menue > ul:nth-of-type(2)').toggle();
+            
+    });
+</script>
+</body>
+</html>
